@@ -105,6 +105,15 @@ def is_palindromic(number):
     else:
         return False
 
+def is_palindromic_base_2(number):
+    '''testify a palindromic number in binary'''
+    number_base_2 = str(bin(number))
+    number_base_2 = number_base_2[2:]
+    if number_base_2 == number_base_2[::-1]:
+        return True
+    else:
+        return False
+
 def get_largest_common_multiple(*numList): 
     '''Get the largest common multiple of a set of numbers'''
     storeDict = dict()
@@ -179,6 +188,56 @@ def amicable_number(number):
         if temp < number and i != temp and i == sum(factor_list_tmp) and temp not in amicableDict.keys():
             amicableDict.update({i : temp})
     return amicableDict
+
+def lexicographic_permutation(nth):
+    '''Return the nth lexicographic permutation of the given digits'''
+    millionth = 0
+    permutation = list()
+    i = -1
+    digit = 1
+    while millionth < nth:
+        i += 1
+        while i in permutation:
+            i += 1
+        millionth += factorial(10 - digit)
+        if millionth > nth:
+            millionth -= factorial(10 - digit)
+            permutation.append(i)
+            digit += 1
+            i = -1
+        elif millionth == nth:
+            permutation.append(i)
+    for i in range(10)[::-1]:
+        if i not in permutation:
+            permutation.append(i)
+    return permutation
+
+def day_of_week(year, month, day):
+    '''Return the day of any date'''
+    template = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
+    if month < 3:
+        year -= month - 1
+    return (year + year/4 - year/100 + year/400 + template[month - 1] + day) % 7
+
+def curious_number(number):
+    '''testify whether one number is a curious number or not'''
+    num_str = str(number)
+    sum_factorial = 0
+    for i in num_str:
+        sum_factorial += factorial(int(i))
+    if sum_factorial == number:
+        return True
+    else:
+        return False    
+
+def circular_number(number):
+    '''Return a number's circular number'''
+    cir_list = [number]
+    num_str = str(number)
+    for i in range(len(num_str)):
+        if num_str[i:] + num_str[:i] != num_str:
+            cir_list.append(int(num_str[i:] + num_str[:i]))
+    return cir_list
 
 if __name__ == '__main__':
     pass
