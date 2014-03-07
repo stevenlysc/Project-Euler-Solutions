@@ -239,5 +239,16 @@ def circular_number(number):
             cir_list.append(int(num_str[i:] + num_str[:i]))
     return cir_list
 
+def pandigital_number(number):
+    '''testify if a number is pandigital'''
+    digit_list = list()
+    for i in str(number):
+        digit_list.append(int(i))
+    for i in range(1, len(str(number)) + 1):
+        if i not in digit_list:
+            return False
+    return True
+
+
 if __name__ == '__main__':
     pass
