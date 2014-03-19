@@ -39,6 +39,16 @@ def get_prime_sieve(scope):
             prime_array.append(i)
     return prime_array
 
+def get_prime_truthtable(scope):
+    '''Return the turthtable of the prime numbers'''
+    index = [1] * scope
+    for i in xrange(2, int(scope ** 0.5) + 1):
+        if index[i]:
+            for m in xrange(i ** 2, scope, i):
+                index[m] = 0
+    index[0], index[1] = 0, 0
+    return index
+
 def get_factors(number):
     '''Return a sorted list of all the factors of a number'''
     factor_list = list()
