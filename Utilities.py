@@ -254,9 +254,8 @@ def pandigital_number(number):
     digit_list = list()
     for i in str(number):
         digit_list.append(int(i))
-    for i in range(1, len(str(number)) + 1):
-        if i not in digit_list:
-            return False
+    if set(digit_list) != set(range(1, len(digit_list) + 1)):
+        return False
     return True
 
 

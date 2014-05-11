@@ -26,7 +26,6 @@ def main():
         if length_temp > length_seq:
             length_seq = length_temp
             index = i
-            print i
     print index
 
 
