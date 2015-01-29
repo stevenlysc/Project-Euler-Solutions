@@ -1,0 +1,4 @@
+The answer is 134043
+Elapsed: 8820.0 ms
+The answer is 134043
+Elapsed: 8590.0 ms

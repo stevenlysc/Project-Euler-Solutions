@@ -1,8 +1,7 @@
 # /bin/sh
 
-cd ~/Documents/ProjectEuler
-rm -r Result
-mkdir Result
+cd ~/Documents/Project-Euler-Solutions
+mkdir -p Result
 
 for f in `ls` 
 do

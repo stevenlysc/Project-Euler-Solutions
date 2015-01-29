@@ -1,2 +1,4 @@
 The answer is 162
-Elapsed: 19.545 ms
+Elapsed: 20.0 ms
+The answer is 162
+Elapsed: 40.0 ms

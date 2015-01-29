@@ -1,2 +1,4 @@
 The answer is 40730
-Elapsed: 2432.146 ms
+Elapsed: 4720.0 ms
+The answer is 40730
+Elapsed: 4410.0 ms

@@ -1,0 +1,4 @@
+The answewr is 5482660
+Elapsed: 2600.0 ms
+The answewr is 5482660
+Elapsed: 2550.0 ms

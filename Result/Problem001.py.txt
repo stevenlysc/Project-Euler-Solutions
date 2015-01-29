@@ -1,2 +1,6 @@
 The answer is 233168
-Elasped: 0.074 ms
+Elasped: 0.0 ms
+The answer is 233168
+Elasped: 0.0 ms
+The answer is 233168
+Elasped: 0.0 ms

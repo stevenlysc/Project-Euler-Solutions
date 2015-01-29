@@ -1,2 +1,6 @@
 The answer is 1074
-Elapsed: 0.253 ms
+Elapsed: 0.0 ms
+The answer is 1074
+Elapsed: 0.0 ms
+The answer is 1074
+Elapsed: 10.0 ms

@@ -1,2 +1,6 @@
 The answer is 4782
-Elapsed: 36.17 ms
+Elapsed: 220.0 ms
+The answer is 4782
+Elapsed: 220.0 ms
+The answer is 4782
+Elapsed: 220.0 ms

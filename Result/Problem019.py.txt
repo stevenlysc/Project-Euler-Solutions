@@ -1,2 +1,6 @@
 The answer is 171
-Elapsed: 0.736 ms
+Elapsed: 0.0 ms
+The answer is 171
+Elapsed: 0.0 ms
+The answer is 171
+Elapsed: 0.0 ms

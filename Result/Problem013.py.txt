@@ -1,2 +1,6 @@
 The answer is 5537376230
-Elapsed: 0.127 ms
+Elapsed: 0.0 ms
+The answer is 5537376230
+Elapsed: 0.0 ms
+The answer is 5537376230
+Elapsed: 0.0 ms

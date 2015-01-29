@@ -1,2 +1,6 @@
 The answer is 210
-Elapsed: 74.513 ms
+Elapsed: 80.0 ms
+The answer is 210
+Elapsed: 80.0 ms
+The answer is 210
+Elapsed: 90.0 ms

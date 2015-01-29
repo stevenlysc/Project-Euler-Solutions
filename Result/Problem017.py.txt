@@ -1,2 +1,6 @@
 The answer is 21124
-Elapsed: 0.026 ms
+Elapsed: 0.0 ms
+The answer is 21124
+Elapsed: 0.0 ms
+The answer is 21124
+Elapsed: 0.0 ms

@@ -1,4 +1,4 @@
-#i /usr/bin/python
+#! /usr/bin/python
 # -*- coding: utf-8 -*-
 '''
 The series, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317.

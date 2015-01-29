@@ -1,0 +1,6 @@
+The answer is 296962999629
+Elapsed: 180.0 ms
+The answer is 296962999629
+Elapsed: 160.0 ms
+The answer is 296962999629
+Elapsed: 160.0 ms
