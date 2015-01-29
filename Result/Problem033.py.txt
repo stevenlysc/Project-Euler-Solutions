@@ -1,0 +1,2 @@
+The answer is 100
+Elapsed: 14.384 ms

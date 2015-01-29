@@ -1,0 +1,2 @@
+The answer is 104743
+Elapsed: 248.863 ms
